@@ -1,0 +1,41 @@
+{
+  "name": "react-use-please-stay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A fun React hook that animates the document title and/or favicon when focus from the page is lost.",
+  "keywords": [
+    "react",
+    "typescript",
+    "react hook",
+    "react hooks"
+  ],
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Tim Goshinski",
+    "email": "tim@code-chimp.com",
+    "url": "https://code-chimp.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyodyne-build/react-use-please-stay.git"
+  },
+  "homepage": "https://github.com/yoyodyne-build/react-use-please-stay#readme",
+  "bugs": {
+    "url": "https://github.com/yoyodyne-build/react-use-please-stay/issues"
+  },
+  "volta": {
+    "node": "20.16.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.7",
+    "@types/react": "~18.3.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
