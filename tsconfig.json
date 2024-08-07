@@ -3,9 +3,11 @@
   "compilerOptions": {
     "outDir": "dist",
     "jsx": "react",
-    "skipLibCheck": true,
-    "lib": ["ES2015"],
+    "skipLibCheck": false,
+    "lib": ["ES2015", "DOM"],
+    "allowSyntheticDefaultImports": true,
     "declaration": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["example"]
 }
